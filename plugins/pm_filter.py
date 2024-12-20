@@ -58,7 +58,7 @@ async def group_search(client, message):
    # ifJoinedFsub = await is_user_fsub(client,message)
     #if ifJoinedFsub == False:
  #       return
-     if message.chat.id == SUPPORT_GROUP :
+    if message.chat.id == SUPPORT_GROUP :
                 if message.text.startswith("/"):
                     return
                 files, n_offset, total = await get_search_results(message.text, offset=0)
