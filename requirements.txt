@@ -30,7 +30,7 @@ werkzeug==2.0.2
 Flask 
 itsdangerous==2.0.1 
 python-Levenshtein 
- 
+googletrans==4.0.0-rc1 
  
 #jisshu 
 opencv-python-headless==4.7.0.68  
