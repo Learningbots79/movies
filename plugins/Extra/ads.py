@@ -11,7 +11,7 @@ async def set_ads(client, message):
     try:
         command_args = message.text.split(maxsplit=1)[1]
         if '#' not in command_args or len(command_args.split('#')) < 3:
-            await message.reply_text(f"Usage: /set_ads {{ads name}}#{{time}}#{{photo URL}} <a href=https://t.me/Jisshu_developer/9>Explain</a>")
+            await message.reply_text(f"Usage: /set_ads {{ads name}}#{{time}}#{{photo URL}} <a href=https://t.me/downloader789/9>Explain</a>")
             return
 
         ads_name, duration_or_impression, url = command_args.split('#', 2)
