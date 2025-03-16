@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '29155314'))
 API_HASH = environ.get('API_HASH', '8c612d2371bb07cd405adec606582b60')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7535361146:AAFzy9CRjmGjk2uNcxWPBXS1J1saqWtJlCY')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7535361146:AAHSY35JOBii2thdL6sDW4WsYZO33cCKyR4')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6424894431').split()]
@@ -80,7 +80,7 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '300'))
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
-PORT = environ.get('PORT', '5000')
+PORT = environ.get('PORT', '500')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 300))
